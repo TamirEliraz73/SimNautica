@@ -7,6 +7,23 @@ This repository contains two implementations of a software project based on UML 
 - **Java/**: Contains the implementation of the project in Java, including all relevant source files, resources, and build configurations.
 - **C++/**: Contains the implementation of the project in C++, with all corresponding source files, resources, and build configurations.
 
+## Dependencies
+
+This project uses the following libraries:
+
+### Java
+
+| Library                           | Version   |
+|-----------------------------------|-----------|
+| Java Standard Edition             | 23        |
+| JUnit                             | 5.10.3    |
+
+### C++
+
+| Library                           | Version   |
+|-----------------------------------|-----------|
+| C++ Standard Library              | C++20     |
+
 ## Overview
 
 The goal of this project is to showcase the design principles and architecture derived from the provided UML diagrams, while exploring the unique features and capabilities of both programming languages. Each implementation may include additional functionalities and enhancements to improve user experience and performance.
