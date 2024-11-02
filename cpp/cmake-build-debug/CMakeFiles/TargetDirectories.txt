@@ -1,3 +1,0 @@
-D:/code2024/SimNautica/cpp/cmake-build-debug/CMakeFiles/cpp.dir
-D:/code2024/SimNautica/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code2024/SimNautica/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

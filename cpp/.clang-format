@@ -1,0 +1,4 @@
+# .clang-format
+
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: Inline
