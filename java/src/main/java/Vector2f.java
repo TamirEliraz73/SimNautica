@@ -47,4 +47,8 @@ public class Vector2f {
     
     public Vector2f addY(@NotNull Vector2f vector2f) { setY(getY() + vector2f.getY()); return this; }
     
+    @Override
+    public String toString() {
+        return String.format("(%.2f, %.2f)", getX(), getY());
+    }
 }

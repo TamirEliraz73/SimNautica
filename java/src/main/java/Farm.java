@@ -1,20 +1,25 @@
+import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
+@Getter
 public class Farm extends Structure {
-    protected float rate;
+    private final float rate;
     
-    public Farm(@NotNull String name, @Nullable Vector2f location) {
-        super(name, location);
+    public Farm(@NotNull String name, @NotNull Vector2f location) {
+        super(name, location, 50.0f);
+        this.rate = 2;
     }
     
     @Override
     public void update() {
-    
+        amount += getRate();
     }
     
     @Override
-    public void withdraw() {
+    public float withdraw(float request) { return withdrawHelper(request); }
     
+    @Override
+    public String toString() {
+        return super.toString() + ". current amount: " + getAmount();
     }
 }
