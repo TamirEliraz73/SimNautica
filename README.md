@@ -16,13 +16,16 @@ This project uses the following libraries:
 | Library                           | Version   |
 |-----------------------------------|-----------|
 | Java Standard Edition             | 23        |
-| JUnit                             | 5.10.3    |
+| JUnit                             | [5.10.3](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html)    |
+| lombok                            | [1.18.32](https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.32)   |
 
 ### C++
 
 | Library                           | Version   |
 |-----------------------------------|-----------|
 | C++ Standard Library              | C++20     |
+| CMake                             | 3.30.5    |
+| mingw                       | [14.2.0-rt_v12-rev0](https://github.com/niXman/mingw-builds-binaries/releases/tag/14.2.0-rt_v12-rev0)|
 
 ## Overview
 
