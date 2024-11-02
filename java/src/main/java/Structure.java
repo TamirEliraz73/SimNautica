@@ -10,7 +10,6 @@ public abstract class Structure extends SimObject {
     @Override
     public void update() { }
     
-    
     public void deposit() { }
     
     public void withdraw() { }
